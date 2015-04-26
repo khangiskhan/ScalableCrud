@@ -116,7 +116,7 @@
     </section>
 </div>
 
-<footer class="footer"><strong class="khang">Khang Nguyen - Khnguyen@ncsu.edu </strong></footer>
+<footer class="footer"><strong class="khang"><a href="https://github.com/khangiskhan">Khang Nguyen</a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/khangiskhan/scalablecrud">Source</a></strong></footer>
 <script type="text/javascript">
     require([
             "dojo/dom",

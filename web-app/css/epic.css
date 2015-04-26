@@ -66,6 +66,25 @@ html {
     display: block;
 }
 
+/* unvisited link */
+a:link {
+    color: #ffffff;
+}
+
+/* visited link */
+a:visited {
+    color: #ffffff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #983B38;
+}
+
+/* selected link */
+a:active {
+    color: #ffffff;
+}
 
 .logo {
     float: left;
