@@ -34,6 +34,15 @@ body {
 
 .banner {
     border-radius: 10px 10px 0 0;
+    background: #983B38;
+}
+.banner>img {
+    height: 6em;
+    width: 6em;
+}
+.banner h1{
+    color: white;
+    padding:0.5em;
 }
 .footer {
     border-radius: 0 0 10px 10px;
@@ -57,13 +66,7 @@ html {
     display: block;
 }
 
-.banner {
-    background: #4a4a4a
-}
-.banner>img {
-    height: 6em;
-    width: 6em;
-}
+
 .logo {
     float: left;
     background: url(../images/logo_epic.png) no-repeat;
@@ -73,12 +76,6 @@ html {
     overflow: hidden;
     margin: -13px 0 0 23px;
 }
-
-.banner h1{
-    color: white;
-    padding:0.5em;
-}
-
 .mainContainer {
     margin: 0.2rem;
 }
