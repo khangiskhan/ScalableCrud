@@ -10,5 +10,7 @@ Dgrid 0.3
 
 # Resources
 http://dojotoolkit.org/reference-guide/1.8/dojo/store/JsonRest.html
+
 http://grails.github.io/grails-doc/2.3.3/guide/webServices.html#REST
+
 https://github.com/SitePen/dgrid/blob/v0.4.0/doc/components/core-components/OnDemandList-and-OnDemandGrid.md
