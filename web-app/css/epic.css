@@ -1,0 +1,274 @@
+.clearfix { zoom: 1;}
+.clearfix:after {
+    content:"";
+    display:block;
+    clear: both;
+}
+/* FONT STACK */
+/*body,
+input, select, textarea {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}*/
+@media only screen and (min-device-width : 320px) and (-webkit-min-device-pixel-ratio: 2){html{font-size:30px;} html body{font-size:2rem!important;}}@media only screen and (min-device-width : 768px) and (-webkit-min-device-pixel-ratio: 2){html{font-size:16px;} html body{font-size:1rem!important;}}body.corporate{background-color:#ffffff;background:#ffffff;padding:0;}body.corporate header .dijitButtonHover .dijitButtonNode,body.corporate header .dijitDropDownButtonHover .dijitButtonNode,body.corporate header .dijitComboButton .dijitButtonNodeHover,body.corporate header .dijitComboButton .dijitDownArrowButtonHover,body.corporate header .dijitToggleButtonHover .dijitButtonNode{background-color:#41658f;background-image:none;border:1px solid #41658f;box-shadow:none;color:#ffffff;}
+
+body {
+    background: #ffffff;
+    color: #333333;
+    margin: 0 auto;
+    max-width: 1260px;
+    font-family: "'Open Sans',Helvetica,Arial,sans-serif";
+    border-radius: 10px;
+    /*overflow-x: hidden; *//* prevents box-shadow causing a horizontal scrollbar in firefox when viewport < 960px wide *//*
+    -moz-box-shadow: 0 0 0.3em #255b17;
+    -webkit-box-shadow: 0 0 0.3em #255b17;
+    box-shadow: 0 0 0.3em #255b17;*/
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.banner {
+    border-radius: 10px 10px 0 0;
+}
+.footer {
+    border-radius: 0 0 10px 10px;
+}
+
+html {
+    background-color: #ddd;
+    background-image: -moz-linear-gradient(center top, #aaa, #ddd);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #aaa), color-stop(1, #ddd));
+    background-image: linear-gradient(top, #aaa, #ddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr = '#aaaaaa', EndColorStr = '#dddddd');
+    background-repeat: no-repeat;
+    height: 100%;
+    /* change the box model to exclude the padding from the calculation of 100% height (IE8+) */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.dijitDialogPaneContentArea label {
+    display: block;
+}
+
+.banner {
+    background: #4a4a4a
+}
+.banner>img {
+    height: 6em;
+    width: 6em;
+}
+.logo {
+    float: left;
+    background: url(../images/logo_epic.png) no-repeat;
+    width: 153px;
+    /*height: 166px; +FB */
+    height: 144px;
+    overflow: hidden;
+    margin: -13px 0 0 23px;
+}
+
+.banner h1{
+    color: white;
+    padding:0.5em;
+}
+
+.mainContainer {
+    margin: 0.2rem;
+}
+
+.footer {
+    background: #4a4a4a;
+    color: #000;
+    clear: both;
+    font-size: 0.8em;
+    margin-top: 1.5em;
+    padding: 1em;
+    min-height: 1em;
+}
+
+.messageFail {
+    color: red;
+}
+.messageSuccess {
+    color: green;
+}
+.dijitDialogTitleBar{
+    text-align:center !important;
+}
+.accountSearchForm {
+    margin: 5px;
+}
+.accountSearch {
+    height: 1.6em;
+}
+.accountSearch .dijitInputContainer {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 5px;
+}
+.accountSearch {
+    border-radius: 10px;
+}
+.accountSearch .dijitButton{
+    border-radius: 10px;
+}
+.dijitButtonNode {
+    border-radius: 10px;
+}
+.accountsGrid .dgrid-scroller {
+    overflow-x: hidden;
+}
+.accountsGrid.dgrid{
+    border: none;
+    margin: 5px;
+    height: 40em;
+}
+.accountsGrid .dgrid-cell {
+    border-left-style: none;
+    border-right-style: none;
+}
+.accountsGrid .dgrid-header, .dgrid-header-row, .dgrid-footer{
+    background-color: white;
+}
+.accountsGrid .dgrid-row:hover {
+ background-color: #bfd6eb;
+}
+
+.field-id {
+    width: 2.5em;
+}
+.controls{
+    margin: 3px;
+}
+.searchButtons{
+    display: inline-block;
+}
+.refreshIcon {
+    background-image: url(../images/logo_epic.png);
+    background-repeat: no-repeat;
+    width:16px;
+    height:16px;
+    text-align: center;
+}
+.dijitDialogPaneContentArea td {
+    text-align:right;
+}
+.dijitDialogPaneActionBar {
+    text-align:center;
+}
+
+@media only screen and (max-device-width:35em){ /* small */
+    .banner>img {
+        height: 3em;
+        width: 3em;
+    }
+    .accountsGrid {
+        height:15em!important;
+    }
+    .dgrid-row {
+        padding: 10px 0 10px 0;
+    }
+
+    .banner h1 {
+        font-size: 1em;
+    }
+
+    .field-dob {
+        width: 0;
+    }
+    .field-id{
+        width: 0;
+    }
+    .dijitDialogPaneContentArea .dijitTextBox{
+        width: 80%;
+    }
+
+    .accountSearch {
+        width: 100%;
+    }
+    .searchButtons {
+        text-align: center;
+    }
+    .searchButtons {
+        width: 100%;
+    }
+    .searchButtons .dijitButton {
+        width: 45%;
+    }
+    .searchButtons .dijitButton .dijitButtonNode {
+        width: 100%;
+    }
+
+    nav.controls {
+        text-align: center;
+    }
+    nav.controls .dijitButton {
+        width: 45%;
+    }
+    nav.controls .dijitButton .dijitButtonNode {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:35em){ /* small */
+    .banner>img {
+        height: 3em;
+        width: 3em;
+    }
+    .accountsGrid {
+        height:20em!important;
+    }
+
+    .field-id {
+        width: 0;
+    }
+
+    .banner h1 {
+        font-size: 1em;
+    }
+
+    .accountSearch {
+        width: 100%;
+    }
+    .searchButtons {
+        text-align: center;
+    }
+    .searchButtons {
+        width: 100%;
+    }
+    .searchButtons .dijitButton {
+        width: 45%;
+    }
+    .searchButtons .dijitButton .dijitButtonNode {
+        width: 100%;
+    }
+
+    nav.controls {
+        text-align: center;
+    }
+    nav.controls .dijitButton {
+        width: 45%;
+    }
+    nav.controls .dijitButton .dijitButtonNode {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 70em) { /* medium*/
+}
+
+.khang {
+    color: white;
+}
+/*
+@media @small-highRes html{
+    font-size: 30x;
+}*/
