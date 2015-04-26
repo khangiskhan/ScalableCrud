@@ -3,7 +3,9 @@ Scalable CRUD demo with Dojo's JsonRest data-store and Grails REST controller.  
 
 # Dependencies
 Grails 2.3.3
+
 Dojo 1.8
+
 Dgrid 0.3 
 
 # Resources
