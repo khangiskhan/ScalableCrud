@@ -16,7 +16,7 @@ Scalable CRUD demo with Dojo's JsonRest data-store and Grails REST controller.  
     POST http://localhost:8080/scalableCrud/accounts/
     
   delete:
-    DELETE http://localhost:8080/scalableCrud/accounts/
+    DELETE http://localhost:8080/scalableCrud/accounts/{account id}
     
   update:
     PUT http://localhost:8080/scalableCrud/accounts/{account id}
