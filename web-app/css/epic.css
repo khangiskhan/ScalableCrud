@@ -147,6 +147,7 @@ a:active {
     border: none;
     margin: 5px;
     height: 40em;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 .accountsGrid .dgrid-cell {
     border-left-style: none;
