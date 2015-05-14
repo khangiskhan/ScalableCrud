@@ -1,6 +1,8 @@
 # ScalableCrud
 Scalable CRUD demo with Dojo's JsonRest data-store and Grails REST controller.  Handle CRUD operations on thousands/millions of accounts using lazy-loading on the UI (Dojo JsonRest + Dojo OnDemandDgrid), and handling paging/pagination on the RESTful API.
 
+TODO Angular rewrite
+
 # Features
 -Basic CRUD through REST endpoints [add, edit, delete, search].
 
