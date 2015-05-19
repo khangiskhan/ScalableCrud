@@ -3,7 +3,7 @@ Scalable CRUD demo with Dojo's JsonRest data-store and Grails REST controller.  
 
 Demo app deployed on AWS: http://www.khangnguyen.elasticbeanstalk.com/
 
-TODO Angular port
+TODO Angular port (ngGrid, ngResource, etc)
 
 # Features
 -Basic CRUD through REST endpoints [add, edit, delete, search].
