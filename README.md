@@ -1,5 +1,5 @@
 # ScalableCrud
-Scalable CRUD demo with Dojo's JsonRest data-store and Grails REST controller.  Handle CRUD operations on thousands/millions of accounts using lazy-loading on the UI (Dojo JsonRest + Dojo OnDemandDgrid), and handling paging/pagination on the RESTful API.
+Scalable CRUD demo with Dojo's JsonRest data-store and Grails REST controller.  Handle CRUD operations on thousands/millions of accounts using lazy-loading (infinite scroll-ish, we have finite data here) on the UI (Dojo JsonRest + Dojo OnDemandDgrid), and handling paging/pagination on the RESTful API.
 
 Demo app deployed on AWS: http://www.khangnguyen.elasticbeanstalk.com/
 
@@ -8,7 +8,7 @@ TODO Angular port (ngGrid, ngResource, etc)
 # Features
 -Basic CRUD through REST endpoints [add, edit, delete, search].
 
--Lazy loading (paging) of data, load additional data as user scrolls.  For demo purposes, the chunks of data requested are small in order to demonstrate the lazy loading more easily, however, in a real world scenario, we can optimize the chunks so that we would reduce the number of requests we have to make to the server.
+-Lazy loading/paging/infinite scroll of data, load additional data as user scrolls.  For demo purposes, the chunks of data requested are small in order to demonstrate the lazy loading more easily, however, in a real world scenario, we can optimize the chunks so that we would reduce the number of requests we have to make to the server.
 
 -Responsiveness
 
