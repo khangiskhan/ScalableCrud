@@ -4,11 +4,12 @@ Scalable CRUD demo with Dojo's JsonRest data-store and Grails REST controller.  
 Demo app deployed on AWS: http://www.khangnguyen.elasticbeanstalk.com/
 
 TODO Angular port (ngGrid, ngResource, etc)
+TODO Server side caching to minimize calls to DB
 
 # Features
 -Basic CRUD through REST endpoints [add, edit, delete, search].
 
--Lazy loading/paging/infinite scroll of data, load additional data as user scrolls.  For demo purposes, the chunks of data requested are small in order to demonstrate the lazy loading more easily, however, in a real world scenario, we can optimize the chunks so that we would reduce the number of requests we have to make to the server.
+-Lazy loading/paging/infinite scroll of data, load additional data as user scrolls.  For demo purposes, the chunks of data requested are small in order to demonstrate the lazy loading more easily, however, in a real world scenario, we can optimize the chunks so that we would reduce the number of requests we have to make to the server and database.
 
 -Responsiveness
 
