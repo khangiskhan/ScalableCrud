@@ -8,7 +8,7 @@ TODO Angular port (ngGrid, ngResource, etc)
 # Features
 -Basic CRUD through REST endpoints [add, edit, delete, search].
 
--Lazy loading (paging) of data, load additional data as user scrolls.
+-Lazy loading (paging) of data, load additional data as user scrolls.  For demo purposes, the chunks of data requested are small in order to demonstrate the lazy loading more easily, however, in a real world scenario, we can optimize the chunks so that we would reduce the number of requests we have to make to the server.
 
 -Responsiveness
 
