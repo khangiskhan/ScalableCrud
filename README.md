@@ -3,16 +3,18 @@ Scalable CRUD demo with Dojo's JsonRest data-store and Grails REST controller.  
 
 Demo app deployed on AWS: http://www.khangnguyen.elasticbeanstalk.com/
 
-# Use case and real world
-Note, the amount (only 500 rows of data in this demo) and size of data here probably wouldn't need to be paged or lazy loaded, in fact performance is decreased since it makes unncessary calls to the database (the bottleneck).  
-
-However, consider a scenario such as Facebook's friend's list viewer; it loads pictures as well as additional information, and provides actions to unfriend (delete), etc.  So basically, it's a CRUD application, similar to our basic example.  For someone with 1000 friends (I'm not that popular), you wouldn't want to to request and build all of that data at once, rather, as the user scrolls through the list, you will request a subset of data (friends).  
-
 TODO Angular port (ngGrid, ngResource, etc)
 
 TODO Server side caching to minimize calls to DB
 
 TODO Tutorial on integrating Dojo's JsonRest data-store with the Grails REST controller
+
+# Use case and real world
+Note, the amount (only 500 rows of data in this demo) and size of data here probably wouldn't need to be paged or lazy loaded, in fact performance is decreased since it makes unncessary calls to the database (the bottleneck).  
+
+However, consider a scenario such as Facebook's friend's list viewer; it loads pictures as well as additional information, and provides actions to unfriend (delete), etc.  So basically, it's a CRUD application, similar to our basic example.  For someone with 1000 friends (I'm not that popular), you wouldn't want to to request and build all of that data at once, rather, as the user scrolls through the list, you will request a subset of data (friends).  
+
+*On a slightly unrelated note, for the Facebook example, you will notice (pop open a developer console as you scroll through the Friends list) that the the requests for additional "friends" are returned as php files, which likley means that Facebook generates the HTML server side.  In this demo, the data returned is just pure JSON, which is then converted to HTML through JavaScript.  There are pros and cons to both approaches, but that is a discussion for another day.
 
 # Features
 -Basic CRUD through REST endpoints [add, edit, delete, search].
