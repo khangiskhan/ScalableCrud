@@ -1,8 +1,6 @@
 # ScalableCrud
 Scalable CRUD demo with Dojo's JsonRest data-store and Grails REST controller.  Handle CRUD operations on thousands/millions of accounts using lazy-loading (infinite scroll-ish, we have finite data here).  
 
-Demo app deployed on AWS: http://www.khangnguyen.elasticbeanstalk.com/
-
 TODO Angular port (ngGrid, ngResource, etc)
 
 TODO Server side caching to minimize calls to DB
